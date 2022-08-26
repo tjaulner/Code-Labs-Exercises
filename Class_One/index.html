@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Links -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Title -->
+    <title>Hello World Javascript</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Hello World!</h1>
+        <h2 class="heading-two">Welcome to the Codefi Bootcamp!</h2>
+
+        <button type="button" class="btn-primary" onclick="updateColors()">Click Me to Update the Background!</button>
+    </section>
+    
+</body>
+</html>
+
+<script src="./main.js"></script>
+
+<!-- <script>
+    // this is a comment
+    // Selects the first <h1> element
+    const headingOne = document.querySelector("h1");
+    
+    // Selects the element with the class name "heading-two"
+    const headingTwo = document.querySelector(".heading-two");
+
+    // Selects the body element
+    const bodyEl = document.querySelector("body");
+
+    // Changes "headingOne" variable's text content.
+    headingOne.innerText = "Updated from Javascript!";  //remember this .innerText
+
+    // Changes "headingTwo" variable's text color.
+    headingTwo.style.color = "blue";
+
+    // Changes the background of hte body and the text color
+    function updateColors() {
+        bodyEl.style.backgroundColor = "#0c4a6e";
+        headingOne.style.color = "#f0f9ff";
+        headingTwo.style.color = "#7dd3fc";
+    }
+</script>
