@@ -1,0 +1,28 @@
+h2 {
+    font-size: 30px;
+}
+
+
+
+.output form {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.quantity-label {
+    margin: 1px 50px;
+    width: 65px;
+    text-decoration: underline;
+    font-weight: bold;
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 10px;
+}
+
+.price {
+    border-radius: 10px;
+    width: 65px;
+    margin: 0 30px;
+    border-width: 2px;
+}
+

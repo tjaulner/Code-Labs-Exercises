@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricingcalculator">Pricing Calculator</a></li>
+                <li><a href="#crazybutton">Crazy Button</a></li>
+                <li><a href="#stopwatch">StopWatch</a></li>
+                <li><a href="#accordion">Accordion</a></li>
+                <li><a href="#scrollingprogress">Scrolling Progress</a></li>
+                <li><a href="#bookmarkapp">Bookmark App</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="audible">
+            <!--What do these do? TBD -->
+            <button>Button One</button>
+            <button>Button Two</button>
+            <button>Button Three</button>
+            <button>Button Four</button>
+            <button>Button Five</button>
+        </div>
+        <div class="output">
+            <section id="home">
+                <h1></h1>
+                <img src="/Playground/images/gilfoyle.jpeg" alt="">
+            </section>
+            <section id="pricingcalculator">
+                <h1></h1>
+                <form class="input">
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <input type="number" class="price" value="30">
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity" class="qlabel">Quantity     <span class="quantity-label"></span></label>
+                        <input type="range" class="quantity" value="1" min="1" max="100" step="1">
+                    </div>
+                </form>
+                <h3>Total:</h3>
+                <div class="text-right text-giant total">$30</div>
+            </section>
+
+            <section id="crazybutton">
+                <h1></h1>
+                <button class="crazybtn">Click Me?</button>
+            </section>
+
+            <section id="stopwatch">
+                <h1>Stop Watch</h1>
+            </section>
+
+            <section id="accordion">
+                <h1>Accordion</h1>
+            </section>
+
+            <section id="scrollingprogress">
+                <h1>Scrolling Progress</h1>
+            </section>
+
+            <section id="bookmarkapp">
+                <h1>Book Mark Apper</h1>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="main.js"></script>
+<script src="output.js"></script>

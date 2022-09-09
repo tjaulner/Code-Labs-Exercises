@@ -1,0 +1,68 @@
+.container {
+    text-align: center;
+    background-color:rgb(111, 148, 149);
+    width: 100vw;
+    min-height: 100vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: clamp(275px, 50%, 700px);
+
+    transition: 50ms cubic-bezier(0.17, 0.67, 0.35, 1.6) opacity;
+}
+
+.link-input {
+    transition: 50ms cubic-bezier(0.17, 0.67, 0.35, 1.6) all;
+}
+
+body.focus-form form {
+    transform: scale(1.1);
+}
+
+body.focus-form .link-input {
+    padding: 0.75em 1.5em;
+    font-size: 1.5rem;
+}
+
+body.focus-form .overlay {
+    opacity: 1;
+}
+
+.link-list {
+    position: relative;
+    width: clamp(275px, 50%, 700px);
+    margin: 2em, auto, 0, auto;
+    padding: 0 0 5em 0;
+}
+
+.link-list li {
+    position: relative;
+    width: 100%;
+    margin: 2em 0;
+    background-color: #0c4a6e;
+    border-radius: 8px;
+    box-shadow: 3px;
+
+    transition: 350ms ease all;
+}
+
+.link {
+    display: block;
+    color: #f0f9ff;
+    text-decoration: none;
+    font-size: 1.75rem;
+    padding: 1.75em 0;
+    cursor: pointer;
+}
+
+.link-list li:hover,
+.link-list li:focus {
+    background-color: #0369a1;
+    box-shadow: 4px;
+}
+
+

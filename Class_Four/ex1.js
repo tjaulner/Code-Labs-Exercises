@@ -16,6 +16,8 @@ function changeColor () {
     const randomColor2 = Math.floor(Math.random() * 16777215).toString(16);
     document.body.style.backgroundColor = `#${randomColor}`;
     document.body.style.color = `#${randomColor2}`;
+    console.log(randomColor, randomColor2);
+    
 }
 
 const buttonListener = document.querySelector(".btnChange");
