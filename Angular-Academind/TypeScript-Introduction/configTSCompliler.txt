@@ -1,0 +1,9 @@
+To complile code for TS, create a typescript config file
+
+in terminal:
+
+npx tsc --init
+
+    this will create a tsconfig.json file 
+
+In angular, will not need to do this as config is created out-of-box....

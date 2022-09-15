@@ -1,0 +1,9 @@
+Angular 1 vs Angular 2
+    Ang 1 is "AngularJS" - not really used anylonger 
+    Ang 2 + plus are all based on Angular 2
+        THese are just referred to as "Angular"
+
+working on first project called "my-first-app"
+had some issues with NPM, node and hten angular ci versions, had to update all to
+get this to work 
+

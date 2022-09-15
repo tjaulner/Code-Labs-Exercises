@@ -1,0 +1,3 @@
+Number, String, Boolean (Primitives)
+Arrays, Objects (more complex)
+function types, parameters

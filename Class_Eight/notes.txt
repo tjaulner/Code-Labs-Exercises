@@ -1,0 +1,34 @@
+Switching gears from initial lesson plan? "Break" day
+
+Intro - watch and learn. Don't fret on 100% understanding.
+
+TOpic One - Async & Await
+-- Went over API stuff.  Old way (promises) and new (async/await)
+-- Key words:  fetch, then, catch, await 
+
+Topic Two:  Class
+-- MOre in depth when we get to angular 
+-- In Angular, we build objects using classes 
+Constructor - a method that runs when class is initiated
+In angular, these classes are referred to as "components"?
+
+Topic Three:  Spread vs Rest
+- Rest operator allows for multiple inputs into a function
+argument is ...args (or whatever var you want, key thing is the three ...) 
+    data passed into function are then sorted in an array
+
+- Spread operator 
+    also uses the ...
+    - In teh example allows for addition/combo of two array sets into one 
+    - spread operator allows us to work wtih the items in the arrays
+        So, adding in items from the array(s) and placing into a single array
+
+
+Then,
+
+Discussed TypeScript
+ - "JS on roids"
+ - "If JS is the beatles, then TS is Kendrick Lamar"
+Discussed Angular 
+- angular.io webpage review of "What is it"
+- angualr is not a language, it is away of doing things 
