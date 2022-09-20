@@ -1,0 +1,38 @@
+Terminal Commands:
+Node check
+    node -v
+
+NPM check
+    npm -v
+
+npm init -y
+    this will create a package.json file
+
+I already installed typescript globally, skipped over that part
+    something about npm install typescript --save-dev
+        this is not a glboal save, but local to folder/project
+If saved locally, need to update the package.json file - in angular, this will not be needed:
+            Per Zelda:  Under package.json, just be sure to include this:
+
+"devDependencies": {
+    "typescript": "4.8.3 {or your version of typescript}"
+  }
+
+
+Other Commands:
+to compile:
+
+tsc filename.ts 
+^^ since I downloaded this globally, no need to add npx before tsc
+
+
+ThisIsPascalCase
+thisIsCamelCase
+this-is-kebab-case 
+this_is_snake_case
+
+
+npm install -g typescript
+
+
+npm init -y

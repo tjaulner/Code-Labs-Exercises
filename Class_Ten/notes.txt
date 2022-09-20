@@ -1,0 +1,13 @@
+****************************************************************
+To create new Angular App:
+
+ng new appname --no-strict
+    Need to know what the no-strict part is for? I dont remember
+
+        Terminal will bring up series of questions:
+
+        - Type n to skip "using angular routing"
+        - Select CSS as style
+
+*****************************************************************
+

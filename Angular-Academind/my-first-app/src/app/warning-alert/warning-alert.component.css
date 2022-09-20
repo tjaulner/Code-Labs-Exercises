@@ -1,0 +1,9 @@
+.warning {
+  background-color:silver;
+  padding: 25px;
+  border: 2px solid black;
+  color:aliceblue;
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
